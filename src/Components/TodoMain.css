@@ -1,0 +1,99 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: rgb(0, 0, 0);
+  margin: 2rem auto;
+  width: 40rem;
+  max-width: 90% auto;
+  border-radius: 7px;
+  filter: drop-shadow(0 10px 10px rgb(54, 54, 54));
+}
+
+.card__form {
+  height: 12rem;
+  margin: 1rem;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  
+}
+
+.card__form__label {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.card__form__input input {
+  height: 2rem;
+  border-radius: 3px;
+  margin: 1.5rem 1rem 1.5rem 1rem;
+  border: 1px solid rgb(184, 184, 184);
+  padding: 2px;
+  background-color: rgb(126, 125, 125);
+}
+
+.card-form-btn{
+  display: flex;
+  align-self: flex-end;
+}
+
+
+.card__form__button1{
+    align-self: flex-end;
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 5px ;
+    border: none;
+    background-color: rgb(68, 196, 255);
+    border: 1px solid rgb(28, 80, 122);
+    margin: 2px;
+    
+}
+
+.card__form__button2{
+  align-self: flex-end;
+  height: 2.5rem;
+  width: 8rem;
+  border-radius: 5px ;
+  border: none;
+  background-color: rgb(68, 196, 255);
+  border: 1px solid rgb(28, 80, 122);
+  
+}
+
+.card__form__button1:hover {
+  background-color: rgb(28, 80, 122);
+  color: white;
+  border: 1px solid rgb(68, 196, 255);
+  transition: 0.2s;
+}
+.card__form__button2:hover {
+  background-color: rgb(28, 80, 122);
+  color: white;
+  border: 1px solid rgb(68, 196, 255);
+  transition: 0.2s;
+}
+
+.card__list {
+  background: rgb(5, 0, 0);
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  
+}
+
+.card__list li{
+    background-color: rgb(179, 177, 177);
+    height: 3rem;
+    margin: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 5px;
+
+}

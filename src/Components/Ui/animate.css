@@ -1,0 +1,9 @@
+@keyframes fadeIn {
+    from{transform: translate3d(0, 10px,0);} 
+    to{transform: translate3d(0,0,0);opacity: 1;} 
+  }
+
+.animate{
+    transition: 0.2s;
+  animation: fadeIn 0.5s ;
+}

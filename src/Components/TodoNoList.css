@@ -1,0 +1,9 @@
+.TodoNoList-list{
+    list-style: none;
+    padding: 0;
+}
+
+.TodoNoList__no-data{
+    color: white;
+    text-align: center;
+}

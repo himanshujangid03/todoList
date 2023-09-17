@@ -1,0 +1,31 @@
+.newlist{
+    margin: 2rem auto;
+    width: 40rem;
+    max-width: 90% auto;
+    background-color: rgb(61, 177, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    filter: drop-shadow(0 10px 10px rgb(54, 54, 54));
+}
+
+.newlist__btn{
+    padding: 1rem 0 1rem 0;
+    
+}
+
+.newlist__btn button{
+    height: 2.5rem;
+    width: 10rem;
+    background-color: rgb(26, 80, 151) ;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    padding: 0.5rem;
+    transition: 0.2s;
+}
+
+.newlist__btn button:hover{
+    background-color:rgb(16, 44, 82) ;
+}

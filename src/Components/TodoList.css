@@ -1,0 +1,16 @@
+.TodoList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: grey;
+  margin: 1rem;
+  padding: 5px 1rem 5px 1rem;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.TodoList__title {
+  color: white;
+  font-size: 20px;
+  font-family: "monsterrat", sans-serif;
+}
