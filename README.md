@@ -1,6 +1,5 @@
-#Project Description
+# Project Description
 This is a web-based todo list application that I created while learning web development using React framework, with guidance from the teachings of Maximilian Schwarzmüller, a renowned Udemy instructor. This project serves as a practical showcase of the skills and knowledge I gained from his comprehensive courses.
-
 
 # Getting Started with Create React App
 
